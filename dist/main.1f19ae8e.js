@@ -126,104 +126,34 @@ var a5 = document.querySelector('.level5');
 var a6 = document.querySelector('.level6');
 var a7 = document.querySelector('.level7');
 var n = 1;
-a1.addEventListener('click', function (e) {
+var fn = function fn(e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
   }, n * 1000);
   n += 1;
-}, true);
-a1.addEventListener('click', function (e) {
+};
+var fm = function fm(e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.add('x');
   }, n * 1000);
   n += 1;
-});
-a2.addEventListener('click', function (e) {
-  var t = e.currentTarget;
-  setTimeout(function () {
-    t.classList.remove('x');
-  }, n * 1000);
-  n += 1;
-}, true);
-a2.addEventListener('click', function (e) {
-  var t = e.currentTarget;
-  setTimeout(function () {
-    t.classList.add('x');
-  }, n * 1000);
-  n += 1;
-});
-a3.addEventListener('click', function (e) {
-  var t = e.currentTarget;
-  setTimeout(function () {
-    t.classList.remove('x');
-  }, n * 1000);
-  n += 1;
-}, true);
-a3.addEventListener('click', function (e) {
-  var t = e.currentTarget;
-  setTimeout(function () {
-    t.classList.add('x');
-  }, n * 1000);
-  n += 1;
-});
-a4.addEventListener('click', function (e) {
-  var t = e.currentTarget;
-  setTimeout(function () {
-    t.classList.remove('x');
-  }, n * 1000);
-  n += 1;
-}, true);
-a4.addEventListener('click', function (e) {
-  var t = e.currentTarget;
-  setTimeout(function () {
-    t.classList.add('x');
-  }, n * 1000);
-  n += 1;
-});
-a5.addEventListener('click', function (e) {
-  var t = e.currentTarget;
-  setTimeout(function () {
-    t.classList.remove('x');
-  }, n * 1000);
-  n += 1;
-}, true);
-a5.addEventListener('click', function (e) {
-  var t = e.currentTarget;
-  setTimeout(function () {
-    t.classList.add('x');
-  }, n * 1000);
-  n += 1;
-});
-a6.addEventListener('click', function (e) {
-  var t = e.currentTarget;
-  setTimeout(function () {
-    t.classList.remove('x');
-  }, n * 1000);
-  n += 1;
-}, true);
-a6.addEventListener('click', function (e) {
-  var t = e.currentTarget;
-  setTimeout(function () {
-    t.classList.add('x');
-  }, n * 1000);
-  n += 1;
-});
-a7.addEventListener('click', function (e) {
-  var t = e.currentTarget;
-  setTimeout(function () {
-    t.classList.remove('x');
-  }, n * 1000);
-  n += 1;
-}, true);
-a7.addEventListener('click', function (e) {
-  var t = e.currentTarget;
-  setTimeout(function () {
-    t.classList.add('x');
-  }, n * 1000);
-  n += 1;
-});
+};
+a1.addEventListener('click', fn, true);
+a1.addEventListener('click', fm);
+a2.addEventListener('click', fn, true);
+a2.addEventListener('click', fm);
+a3.addEventListener('click', fn, true);
+a3.addEventListener('click', fm);
+a4.addEventListener('click', fn, true);
+a4.addEventListener('click', fm);
+a5.addEventListener('click', fn, true);
+a5.addEventListener('click', fm);
+a6.addEventListener('click', fn, true);
+a6.addEventListener('click', fm);
+a7.addEventListener('click', fn, true);
+a7.addEventListener('click', fm);
 },{}],"C:/Users/guo/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
