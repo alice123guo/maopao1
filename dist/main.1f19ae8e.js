@@ -130,51 +130,100 @@ a1.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
-  }, n * 500);
+  }, n * 1000);
+  n += 1;
+}, true);
+a1.addEventListener('click', function (e) {
+  var t = e.currentTarget;
+  setTimeout(function () {
+    t.classList.add('x');
+  }, n * 1000);
+  n += 1;
+});
+a2.addEventListener('click', function (e) {
+  var t = e.currentTarget;
+  setTimeout(function () {
+    t.classList.remove('x');
+  }, n * 1000);
   n += 1;
 }, true);
 a2.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
+    t.classList.add('x');
+  }, n * 1000);
+  n += 1;
+});
+a3.addEventListener('click', function (e) {
+  var t = e.currentTarget;
+  setTimeout(function () {
     t.classList.remove('x');
-  }, n * 500);
+  }, n * 1000);
   n += 1;
 }, true);
 a3.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
+    t.classList.add('x');
+  }, n * 1000);
+  n += 1;
+});
+a4.addEventListener('click', function (e) {
+  var t = e.currentTarget;
+  setTimeout(function () {
     t.classList.remove('x');
-  }, n * 500);
+  }, n * 1000);
   n += 1;
 }, true);
 a4.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
+    t.classList.add('x');
+  }, n * 1000);
+  n += 1;
+});
+a5.addEventListener('click', function (e) {
+  var t = e.currentTarget;
+  setTimeout(function () {
     t.classList.remove('x');
-  }, n * 500);
+  }, n * 1000);
   n += 1;
 }, true);
 a5.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
+    t.classList.add('x');
+  }, n * 1000);
+  n += 1;
+});
+a6.addEventListener('click', function (e) {
+  var t = e.currentTarget;
+  setTimeout(function () {
     t.classList.remove('x');
-  }, n * 500);
+  }, n * 1000);
   n += 1;
 }, true);
 a6.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
+    t.classList.add('x');
+  }, n * 1000);
+  n += 1;
+});
+a7.addEventListener('click', function (e) {
+  var t = e.currentTarget;
+  setTimeout(function () {
     t.classList.remove('x');
-  }, n * 500);
+  }, n * 1000);
   n += 1;
 }, true);
 a7.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
-    t.classList.remove('x');
-  }, n * 500);
+    t.classList.add('x');
+  }, n * 1000);
   n += 1;
-}, true);
+});
 },{}],"C:/Users/guo/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';

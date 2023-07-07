@@ -12,48 +12,104 @@ a1.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
           t.classList.remove('x')  
-    },  n * 500);
+    },  n * 1000);
+    n+=1
+},true)
+a1.addEventListener('click', (e) => {
+    const t  = e.currentTarget 
+    setTimeout(() => {
+          t.classList.add('x')  
+    },  n * 1000);
+    n+=1
+})
+
+a2.addEventListener('click', (e) => {
+    const t  = e.currentTarget 
+    setTimeout(() => {
+          t.classList.remove('x')  
+    },  n * 1000);
     n+=1
 },true)
 a2.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
+          t.classList.add('x')  
+    },  n * 1000);
+    n+=1
+})
+
+a3.addEventListener('click', (e) => {
+    const t  = e.currentTarget 
+    setTimeout(() => {
           t.classList.remove('x')  
-    },  n * 500);
+    },  n * 1000);
     n+=1
 },true)
 a3.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
+          t.classList.add('x')  
+    },  n * 1000);
+    n+=1
+})
+
+a4.addEventListener('click', (e) => {
+    const t  = e.currentTarget 
+    setTimeout(() => {
           t.classList.remove('x')  
-    },  n * 500);
+    },  n * 1000);
     n+=1
 },true)
 a4.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
+          t.classList.add('x')  
+    },  n * 1000);
+    n+=1
+})
+
+a5.addEventListener('click', (e) => {
+    const t  = e.currentTarget 
+    setTimeout(() => {
           t.classList.remove('x')  
-    },  n * 500);
+    },  n * 1000);
     n+=1
 },true)
 a5.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
+          t.classList.add('x')  
+    },  n * 1000);
+    n+=1
+})
+
+a6.addEventListener('click', (e) => {
+    const t  = e.currentTarget 
+    setTimeout(() => {
           t.classList.remove('x')  
-    },  n * 500);
+    },  n * 1000);
     n+=1
 },true)
 a6.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
+          t.classList.add('x')  
+    },  n * 1000);
+    n+=1
+})
+
+a7.addEventListener('click', (e) => {
+    const t  = e.currentTarget 
+    setTimeout(() => {
           t.classList.remove('x')  
-    },  n * 500);
+    },  n * 1000);
     n+=1
 },true)
 a7.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
-          t.classList.remove('x')  
-    },  n * 500);
+          t.classList.add('x')  
+    },  n * 1000);
     n+=1
-},true)
+})
+
