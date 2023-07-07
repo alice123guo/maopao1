@@ -132,49 +132,49 @@ a1.addEventListener('click', function (e) {
     t.classList.remove('x');
   }, n * 500);
   n += 1;
-});
+}, true);
 a2.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
   }, n * 500);
   n += 1;
-});
+}, true);
 a3.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
   }, n * 500);
   n += 1;
-});
+}, true);
 a4.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
   }, n * 500);
   n += 1;
-});
+}, true);
 a5.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
   }, n * 500);
   n += 1;
-});
+}, true);
 a6.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
   }, n * 500);
   n += 1;
-});
+}, true);
 a7.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
   }, n * 500);
   n += 1;
-});
+}, true);
 },{}],"C:/Users/guo/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
