@@ -125,8 +125,48 @@ var a4 = document.querySelector('.level4');
 var a5 = document.querySelector('.level5');
 var a6 = document.querySelector('.level6');
 var a7 = document.querySelector('.level7');
+var n = 1;
 a1.addEventListener('click', function (e) {
-  e.currentTarget.classList.remove('x');
+  var t = e.currentTarget;
+  setTimeout(function () {
+    t.classList.remove('x');
+  }, 1000);
+});
+a2.addEventListener('click', function (e) {
+  var t = e.currentTarget;
+  setTimeout(function () {
+    t.classList.remove('x');
+  }, 1000);
+});
+a3.addEventListener('click', function (e) {
+  var t = e.currentTarget;
+  setTimeout(function () {
+    t.classList.remove('x');
+  }, 1000);
+});
+a4.addEventListener('click', function (e) {
+  var t = e.currentTarget;
+  setTimeout(function () {
+    t.classList.remove('x');
+  }, 1000);
+});
+a5.addEventListener('click', function (e) {
+  var t = e.currentTarget;
+  setTimeout(function () {
+    t.classList.remove('x');
+  }, 1000);
+});
+a6.addEventListener('click', function (e) {
+  var t = e.currentTarget;
+  setTimeout(function () {
+    t.classList.remove('x');
+  }, 1000);
+});
+a7.addEventListener('click', function (e) {
+  var t = e.currentTarget;
+  setTimeout(function () {
+    t.classList.remove('x');
+  }, 1000);
 });
 },{}],"C:/Users/guo/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
