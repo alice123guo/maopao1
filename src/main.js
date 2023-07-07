@@ -14,7 +14,7 @@ a1.addEventListener('click', (e) => {
           t.classList.remove('x')  
     },  n * 1000);
     n+=1
-},true)
+},true) 
 a1.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
