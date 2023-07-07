@@ -130,43 +130,50 @@ a1.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
-  }, 1000);
+  }, n * 500);
+  n += 1;
 });
 a2.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
-  }, 1000);
+  }, n * 500);
+  n += 1;
 });
 a3.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
-  }, 1000);
+  }, n * 500);
+  n += 1;
 });
 a4.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
-  }, 1000);
+  }, n * 500);
+  n += 1;
 });
 a5.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
-  }, 1000);
+  }, n * 500);
+  n += 1;
 });
 a6.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
-  }, 1000);
+  }, n * 500);
+  n += 1;
 });
 a7.addEventListener('click', function (e) {
   var t = e.currentTarget;
   setTimeout(function () {
     t.classList.remove('x');
-  }, 1000);
+  }, n * 500);
+  n += 1;
 });
 },{}],"C:/Users/guo/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];

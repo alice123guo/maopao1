@@ -12,41 +12,48 @@ a1.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
           t.classList.remove('x')  
-    }, 1000);
+    },  n * 500);
+    n+=1
 })
 a2.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
           t.classList.remove('x')  
-    }, 1000);
+    },  n * 500);
+    n+=1
 })
 a3.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
           t.classList.remove('x')  
-    }, 1000);
+    },  n * 500);
+    n+=1
 })
 a4.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
           t.classList.remove('x')  
-    }, 1000);
+    },  n * 500);
+    n+=1
 })
 a5.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
           t.classList.remove('x')  
-    }, 1000);
+    },  n * 500);
+    n+=1
 })
 a6.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
           t.classList.remove('x')  
-    }, 1000);
+    },  n * 500);
+    n+=1
 })
 a7.addEventListener('click', (e) => {
     const t  = e.currentTarget 
     setTimeout(() => {
           t.classList.remove('x')  
-    }, 1000);
+    },  n * 500);
+    n+=1
 })
