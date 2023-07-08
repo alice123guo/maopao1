@@ -30,7 +30,10 @@ a2.addEventListener('click',fm)
 a3.addEventListener('click', fn,true) 
 a3.addEventListener('click', fm)
 a4.addEventListener('click', fn,true)
-a4.addEventListener('click',fm)
+a4.addEventListener('click',(e)=>{
+    e.stopPropagation()
+    fm
+})
 a5.addEventListener('click', fn,true) 
 a5.addEventListener('click', fm)
 a6.addEventListener('click', fn,true)

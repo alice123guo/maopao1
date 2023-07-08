@@ -147,7 +147,10 @@ a2.addEventListener('click', fm);
 a3.addEventListener('click', fn, true);
 a3.addEventListener('click', fm);
 a4.addEventListener('click', fn, true);
-a4.addEventListener('click', fm);
+a4.addEventListener('click', function (e) {
+  e.stopPropagation();
+  fm;
+});
 a5.addEventListener('click', fn, true);
 a5.addEventListener('click', fm);
 a6.addEventListener('click', fn, true);
@@ -179,7 +182,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61321" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61981" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
