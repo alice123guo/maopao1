@@ -11,3 +11,7 @@
 4. 举例：`<div><span>{文字}</span></div>`,当用户点击文字的时候
    - e.target是span
    - e.currentTarget是div
+
+#### 取消冒泡
+1. e.stopPropagation()
+2. 本例在a4新增一个取消冒泡的api
